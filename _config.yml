@@ -31,7 +31,6 @@ data_dir: _data
 
 # Collections
 collections:
-  #collections_dir: continguts # Optionally specify a directory if you want to store all your collections in the same place
   contacte:
       output: false
   escola:
@@ -138,7 +137,7 @@ markdown: kramdown
 highlighter: rouge
 
 # Build settings
-gems:
+plugins:
   - jekyll-feed
 plugins_dir:
   - jekyll-menus
