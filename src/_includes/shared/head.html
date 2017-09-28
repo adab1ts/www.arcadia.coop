@@ -1,12 +1,12 @@
 <head>
     <meta charset="utf-8">
-    <title>Escola Arcàdia | {% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+    <title>{% if page.titol_seo %}Escola Arcàdia | {{ page.titol_seo | escape }}{% else %}{{ site.titol | escape }}{% endif %}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     {% capture description%}
-    {% if page.description %}{{ page.description }}{% else %}{{ page.excerpt | default: site.description | strip_html }}{% endif %}
+    {% if page.descripcio %}{{ page.descripcio }}{% else %}{{ page.excerpt | default: site.descripcio | strip_html }}{% endif %}
     {% endcapture %}
     <meta name="description" content="{{ description | normalize_whitespace | truncate: 160 | escape}}">
-    <meta name="keywords" content="{{ page.keyword | strip_html | normalize_whitespace | escape }}">
+    <meta name="keywords" content="{{ page.paraules_clau | strip_html | normalize_whitespace | escape }}">
     <meta name="author" content="{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}">
 
     {% include shared/head-seo.html %}

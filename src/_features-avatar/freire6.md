@@ -1,5 +1,5 @@
 ---
-title: "Paulo freire"
+titol: "Paulo freire"
 avatar: "montessori.jpg"
 pagina: teoria
 order: 6

@@ -1,5 +1,5 @@
 ---
-title: "Aprendizaje servicio"
+titol: "Aprendizaje servicio"
 icon: Teacher
 pagina: teoria
 order: 6

@@ -1,5 +1,5 @@
 ---
-title: Un model educatiu basat en la llibertat responsable
+titol: Un model educatiu basat en la llibertat responsable
 imatge: psicomotricidad.jpg
 descripcio_imatge: descripció de la imatge
 pagina: home

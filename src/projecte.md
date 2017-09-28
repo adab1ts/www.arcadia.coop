@@ -1,10 +1,10 @@
 ---
 layout: multi-section
 sections: projecte
-title: Projecte tècnic
-hero_imatge: presentacio.jpg
+titular: Projecte tècnic
+imatge_titular: presentacio.jpg
 color_pagina: verd
-description: Els objectius pedagògics de l'Arcàdia són la formació integral de les
-  persones.
-keywords: escola arcàdia, arcadia
+titol_seo: Projecte tècnic arquitectònic
+descripcio: Els objectius pedagògics de l'Arcàdia són la formació integral de les persones.
+paraules_clau: escola arcàdia, arcadia
 ---

@@ -1,10 +1,10 @@
 ---
 layout: multi-section
 sections: homepage
-titol_pagina: Escola autogestionària i cooperativa
-hero_imatge: presentacio.jpg
+titular: Escola autogestionària i cooperativa
+imatge_titular: presentacio.jpg
 color_pagina: vermell
-title: Escola autogestionària i cooperativa
-description: Escola autogestionària i cooperativa situada a Can Batlló, Barcelona.
-keywords: educació lliure, escola can batllo, escola lliure barcelona
+titol_seo: Escola autogestionària i cooperativa
+descripcio: Escola autogestionària i cooperativa situada a Can Batlló, Barcelona.
+paraules_clau: educació lliure, escola can batllo, escola lliure barcelona
 ---

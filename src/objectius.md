@@ -1,12 +1,13 @@
 ---
 layout: multi-section
 sections: objectius
-title: Els nostres objectius
-hero_imatge: presentacio.jpg
+titular: Els nostres objectius
+imatge_titular: presentacio.jpg
 color_pagina: vermell
-description: Els objectius pedagògics de l'Arcàdia són la formació integral de les
+titol_seo: Objectius pedagògics
+descripcio: Els objectius pedagògics de l'Arcàdia són la formació integral de les
   persones.
-keywords: escola arcàdia, arcadia
+paraules_clau: escola arcàdia, arcadia
 menu:
   escola:
     identifier: _objectius

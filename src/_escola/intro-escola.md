@@ -9,16 +9,16 @@ blocs:
   subtitol: Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation
     ullamco laboris nisi ut aliquip ex ea commodo consequat.
   icona: Loop
-  bg_color: white
+  color_fons: white
 - nom: 'Aprendizaje     autónomo'
   subtitol: Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation
     ullamco laboris nisi ut aliquip ex ea commodo consequat.
   icona: Affiliate
-  bg_color: primary
+  color_fons: primary
 - nom: 'Educación     de     alta     calidad'
   subtitol: Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation
     ullamco laboris nisi ut aliquip ex ea commodo consequat.
   icona: Starfish
-  bg_color: secondary
+  color_fons: secondary
 date: 2017-09-26 17:27:04 +0000
 ---

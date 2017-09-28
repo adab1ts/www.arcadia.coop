@@ -1,5 +1,5 @@
 ---
-title: "Aprendizaje autoregulado"
+titol: "Aprendizaje autoregulado"
 avatar: "montessori.jpg"
 pagina: teoria
 order: 4

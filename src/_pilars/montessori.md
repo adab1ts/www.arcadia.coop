@@ -1,5 +1,5 @@
 ---
-title: Maria Montessori
+titol: Maria Montessori
 avatar: montessori.jpg
 order: 1
 date: 2017-09-26 17:27:04 +0000

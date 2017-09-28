@@ -1,9 +1,10 @@
 ---
 layout: multi-section
 sections: contacte
-title: Contacte
-hero_imatge: presentacio.jpg
+titular: Contacta amb nosaltres
+imatge_titular: presentacio.jpg
 color_pagina: verd
-description: Informació per contactar amb l'Escola Arcàdia
-keywords: contacte, escola arcàdia, arcadia
+titol_seo: Contacte
+descripcio: Informació per contactar amb l'Escola Arcàdia
+paraules_clau: contacte, escola arcàdia, arcadia
 ---

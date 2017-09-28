@@ -1,5 +1,5 @@
 ---
-title: Autoevaluació
+titol: Autoevaluació
 avatar: montessori.jpg
 order: 5
 date: 2017-09-26 17:27:04 +0000

@@ -45,7 +45,7 @@ fields:
     type: text
     hidden: false
     default: ''
-  - name: bg_color
+  - name: color_fons
     label: Bg color
     type: text
     hidden: false
@@ -55,9 +55,9 @@ fields:
   - nom: Nom de la característica
     subtitol: Lorem ipsum dolor sit amet. Ut enim ad minim veniam.
     icona: Loop
-    bg_color: secondary
+    color_fons: secondary
   - nom: Nom de la característica
     subtitol: Lorem ipsum dolor sit amet. Ut enim ad minim veniam.
     icona: Loop
-    bg_color: secondary
+    color_fons: secondary
   description: Continguts dels 3 blocs que conformen la secció

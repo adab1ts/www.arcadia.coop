@@ -1,6 +1,6 @@
 ---
-title: Maria Montessori
-subtitle: A brief description of the card.
+titol: Maria Montessori
+subtitol: A brief description of the card.
 card-image: psicomotricidad.jpg
 pagina: projecte
 order: 1

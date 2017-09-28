@@ -1,5 +1,5 @@
 ---
-title: About Arcàdia
+titol: About Arcàdia
 imatge: psicomotricidad.jpg
 descripcio_imatge: descripció de la imatge
 pagina: about

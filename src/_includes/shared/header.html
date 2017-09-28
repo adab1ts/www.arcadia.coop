@@ -2,12 +2,12 @@
 <!-- Header -->
 <section class="cover height-70 imagebg bg--secondary" data-overlay="4">
                 <div class="background-image-holder">
-                    <img alt="background" src="{{ site.baseurl }}/{{ site.images_path }}/{{ page.hero_imatge }}">
+                    <img alt="background" src="{{ site.baseurl }}/{{ site.images_path }}/{{ page.imatge_titular }}">
                 </div>
                 <div class="container pos-vertical-center">
                     <div class="row">
                         <div class="col-sm-6">
-                            <h1>{{ page.title }}</h1>
+                            <h1>{% if page.titular %}{{ page.titular }}{% else %}{{ page.titol_seo }}{% endif %}</h1>
                         </div>
                     </div>
                 </div>

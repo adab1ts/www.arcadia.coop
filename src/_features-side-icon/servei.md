@@ -1,5 +1,5 @@
 ---
-title: "Aprendizaje responsable"
+titol: "Aprendizaje responsable"
 icon: Teacher
 pagina: teoria
 order: 3

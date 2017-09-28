@@ -1,5 +1,5 @@
 ---
-title: Autoevaluació
+titol: Autoevaluació
 icon: Fingerprint-2
 pagina: teoria
 order: 2

@@ -1,6 +1,6 @@
 ---
-title: Paulo freire
-subtitle: A brief description of the card.
+titol: Paulo freire
+subtitol: A brief description of the card.
 card-image: psicomotricidad.jpg
 pagina: projecte
 order: 2

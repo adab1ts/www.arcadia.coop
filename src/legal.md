@@ -1,7 +1,7 @@
 ---
 layout: basic
-title: Avís legal
-description: Informació legal sobre el site
-keywords: 
+titol_seo: Avís legal
+descripcio: Informació legal sobre el site
+paraules_clau:
 ---
 ## Avís legal

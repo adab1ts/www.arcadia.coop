@@ -1,5 +1,5 @@
 ---
-title: Aprendizaje autoregulado
+titol: Aprendizaje autoregulado
 icon: Atom
 pagina: teoria
 order: 1

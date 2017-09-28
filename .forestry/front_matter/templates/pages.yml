@@ -26,7 +26,7 @@ fields:
   type: text
   hidden: false
   default: Títol per SEO
-- name: hero_imatge
+- name: imatge_titular
   label: Hero imatge
   type: text
   hidden: false

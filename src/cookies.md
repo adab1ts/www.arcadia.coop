@@ -1,8 +1,8 @@
 ---
 layout: basic
-title: Política de cookies
-description: Informació sobre les cookies del site
-keywords: 
+titol_seo: Política de cookies
+descripcio: Informació sobre les cookies del site
+paraules_clau:
 ---
 ## Política de cookies
 

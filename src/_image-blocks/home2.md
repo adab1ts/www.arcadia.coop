@@ -1,5 +1,5 @@
 ---
-title: Cooperativisme autogestionari
+titol: Cooperativisme autogestionari
 imatge: psicomotricidad.jpg
 descripcio_imatge: descripció de la imatge
 pagina: home

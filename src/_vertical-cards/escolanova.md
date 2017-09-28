@@ -1,6 +1,6 @@
 ---
-title: Aprendizaje servicio
-subtitle: A brief description of the card.
+titol: Aprendizaje servicio
+subtitol: A brief description of the card.
 card-image: psicomotricidad.jpg
 pagina: projecte
 order: 3

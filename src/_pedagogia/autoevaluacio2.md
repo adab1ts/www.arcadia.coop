@@ -1,5 +1,5 @@
 ---
-title: Autoevaluació
+titol: Autoevaluació
 icon: Atom
 pagina: teoria
 order: 5
