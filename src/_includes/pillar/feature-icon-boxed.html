@@ -7,14 +7,16 @@
             </div>
         </div>
         <div class="row">
-          {% for item in section.conceptes %}
-            <div class="col-sm-4">
-                <div class="feature feature-1 text-center boxed boxed--lg">
-                    <i class="icon color--primary icon-{{ item.icona }} icon--lg"></i>
-                    <h3>{{ item.nom }}</h3>
-                </div>
+            {% for item in section.conceptes %}
+            <div class="col-sm-4 ">
+                <a href="#{{ item.link }}">
+                    <div class="stats-1 feature feature-1 text-center boxed boxed--lg">
+                        <i class="icon color--primary icon-{{ item.icona }} icon--lg"></i>
+                        <h3>{{ item.nom }}</h3>
+                    </div>
+                </a>
             </div>
-          {% endfor %}
+            {% endfor %}
         </div>
     </div>
 </section>
