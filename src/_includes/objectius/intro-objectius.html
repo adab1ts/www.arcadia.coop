@@ -1,0 +1,20 @@
+<section class="{% if section.fons %}{{ section.fons }}{% else %}{% endif %}" data-sr-id="1" >
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="elements--title">
+                    <h4>{{ section.titol_seccio }}</h4>
+                </div>
+            </div>
+            {% for bloc in section.objectius %}
+            <div class="col-sm-4">
+                <div class="feature feature-1">
+                    <i class="icon icon-{{ bloc.icona }} icon--lg"></i>
+                    <h4>{{ bloc.objectiu }}</h4>
+                    <p>{{ bloc.text }}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
