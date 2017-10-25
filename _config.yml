@@ -70,61 +70,7 @@ defaults:
       titol_seo: "Títol per SEO"
       descripcio: "Descripció per SEO"
       paraules_clau: "Paraules clau separades per comes"
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-      type: "imageblock"
-    values:
-      type: "imageblock"
-      include: pillar/imageblock-left.html
-      order: 1
-      titol_seccio: "Títol de la secció"
-      imatge: psicomotricidad.jpg
-      descripcio_imatge: "descripció de la fotografia"
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-      type: "feature-icon-boxed"
-    values:
-      type: "feature-icon-boxed"
-      include: pillar/feature-icon-boxed.html
-      order: 1
-      titol_seccio: "Títol de la secció"
-      fons: "bg--secondary"
-      conceptes:
-        - nom: "Autogestió"
-          subtitol: "Cooperativisme autogestionari"
-          icona: "Loop"
-        - nom: "Educació Integral"
-          subtitol: "Educació Integral"
-          icona: "Pencil-Ruler"
-        - nom: "Llibertat responsable"
-          subtitol: "Llibertat "
-          icona: "Bodybuilding"
 
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-      type: "features-3-blocs"
-    values:
-      type: "features-3-blocs"
-      include: pillar/features-3-blocs.html
-      order: 1
-      titol_seccio: "Títol de la secció"
-      subtitol_seccio: "Lorem ipsum dolor sit amet"
-      blocs:
-        - nom: "Nom de la característica 1"
-          subtitol: "Lorem ipsum dolor sit amet. Ut enim ad minim veniam."
-          icona: "Loop"
-          color_fons: secondary
-        - nom: "Nom de la característica 2"
-          subtitol: "Lorem ipsum dolor sit amet. Ut enim ad minim veniam."
-          icona: "Bodybuilding"
-          color_fons: primary
-        - nom: "Nom de la característica 3"
-          subtitol: "Lorem ipsum dolor sit amet. Ut enim ad minim veniam."
-          icona: "Pencil-Ruler"
-          color_fons: white
 
 # Handling Reading
 encoding: "utf-8"
