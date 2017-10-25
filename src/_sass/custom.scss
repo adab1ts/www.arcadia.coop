@@ -4,6 +4,89 @@
   Site custom styles below
 ****************************/
 
+body {
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+h1,
+.h1 {
+  font-size: 3.14285714em;
+  line-height: 1.31818182em;
+}
+h2,
+.h2 {
+  font-size: 2.35714286em;
+  line-height: 1.36363636em;
+}
+h3,
+.h3 {
+  font-size: 1.78571429em;
+  line-height: 1.5em;
+}
+h4,
+.h4 {
+  font-size: 1.35714286em;
+  line-height: 1.36842105em;
+}
+h5,
+.h5 {
+  font-size: 1em;
+  line-height: 1.85714286em;
+}
+h6,
+.h6 {
+  font-size: 0.85714286em;
+  line-height: 2.16666667em;
+}
+.lead {
+  font-size: 1.35714286em;
+  line-height: 1.68421053em;
+}
+@media all and (max-width: 767px) {
+  h1,
+  .h1 {
+    font-size: 2.35714286em;
+    line-height: 1.36363636em;
+  }
+  h2,
+  .h2 {
+    font-size: 1.78571429em;
+    line-height: 1.5em;
+  }
+  h3,
+  .h3 {
+    font-size: 1.35714286em;
+    line-height: 1.85714286em;
+  }
+  .lead {
+    font-size: 1.35714286em;
+    line-height: 1.36842105em;
+  }
+}
+p,
+ul,
+ol,
+pre,
+table,
+blockquote {
+  margin-bottom: 1.85714286em;
+}
+
 //OVERRIDES THEME COLORS
 
 .lila h4,
@@ -151,4 +234,10 @@ h4,
 
 h6, .h6 {
   font-size: 0.75em !important;
+}
+
+/**! 18. Boxes **/
+
+.boxed.boxed--lg {
+  padding: 3.65625em 1.65625em 3.65625em 1.65625em;
 }
