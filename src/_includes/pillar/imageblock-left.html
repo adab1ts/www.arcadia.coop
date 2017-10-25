@@ -1,5 +1,5 @@
 <!-- Content with image on the left side -->
-<section class="imageblock about-1">
+<section class="imageblock about-1" id="{% if section.a1_id %}{{ section.a1_id }}{% else %}{% endif %}">
   <div class="imageblock__content col-md-6 col-sm-4 pos-left">
     <div class="background-image-holder">
       <img alt="{{ section.descripcio_imatge }}" src="{{ site.baseurl }}/{{ site.images_path }}/{{ section.imatge }}">

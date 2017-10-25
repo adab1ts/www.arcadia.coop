@@ -1,12 +1,10 @@
 ---
 order: 1
-include: pillar/feature-icon-boxed.html
-type: feature-icon-boxed
+include: homepage/conceptes-icones.html
 titol_seccio: L'arcàdia en 6 conceptes
 fons: bg--secondary
-a1_id: a1-home
 conceptes:
-- nom: Educació en i per a la llibertat
+- nom: Llibertat
   subtitol: La llibertat, a l'Arcàdia, és una capacitat en permanent desenvolupament;
     una conquesta quotidiana i col·lectiva on es manifesta el desig dels nens i les
     nenes, els quals, han d'aprendre a responsabilitzar-se i comprometre's en la consecució

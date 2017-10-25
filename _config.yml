@@ -25,8 +25,6 @@ images_path: assets/img
 theme_scripts_path: assets/pillar/js
 theme_styles_path: assets/pillar/css
 theme_fonts_path: assets/pillar/fonts
-#collections_dir: continguts # Optionally specify a directory if you want to store all your collections in the same place
-
 data_dir: _data
 
 # Collections
