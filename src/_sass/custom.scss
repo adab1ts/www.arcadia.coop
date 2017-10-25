@@ -191,53 +191,31 @@ h4,
 
 // FOOTER
 
-.footer-1 .footer__navigation {
-  float: none;
-}
-
-.footer-1 .row div {
-  margin-bottom: 30px;
-}
-
-.a1-subscription {
-  padding: 0 10%;
-}
-
 .a1-license a {
-  opacity: .5 !important;
+  opacity: .5;
   text-decoration: none;
 }
 
 .a1-license a:hover {
-  opacity: 1 !important;
+  opacity: 1;
   text-decoration: none;
 }
 
-.footer__lower a:hover {
-  opacity: 0.5 !important;
-  text-decoration: none;
-}
-
-.footer__lower a {
-  opacity: 1 !important;
-  text-decoration: none;
-}
-
-.type--fine-print {
-  font-size: 0.85em;
-}
-
-.footer-1 .footer__navigation li {
-  font-family: $menu-font-family;
-  font-size: 0.8em;
-}
-
-h6, .h6 {
-  font-size: 0.75em !important;
-}
 
 /**! 18. Boxes **/
 
 .boxed.boxed--lg {
   padding: 3.65625em 1.65625em 3.65625em 1.65625em;
+}
+
+.stats-1 .feature {
+  border-radius: 2em;
+}
+
+#intro-home a:hover {
+  text-decoration: none;
+}
+
+#intro-home a:hover div {
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.2);
 }
