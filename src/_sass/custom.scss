@@ -89,30 +89,127 @@ blockquote {
 
 //OVERRIDES THEME COLORS
 
-.lila h4,
-.lila .h4 {
-  color: $tertiary-color;
+body {
+  background: $bg-color;
+}
+.color--primary {
+  color: $primary !important;
 }
 
-.lila h5,
-.lila .h5 {
-  color: $tertiary-color;
+a {
+  color: $primary-2-dark;
 }
 
-h2,
-.h2 {
-  color: $primary-color;
+a:hover {
+  color: $primary-1;
 }
 
-h3,
-.h3 {
-  color: $primary-color;
+.color--primary-1 {
+  color: $primary-1 !important;
+}
+.color--primary-2 {
+  color: $primary-2 !important;
 }
 
-h4,
-.h4 {
-  color: $secondary-color;
+h1.color--primary,
+h2.color--primary,
+h3.color--primary,
+h4.color--primary,
+h5.color--primary,
+h6.color--primary {
+  color: $primary-dark;
 }
+
+h1.color--primary-1,
+h2.color--primary-1,
+h3.color--primary-1,
+h4.color--primary-1,
+h5.color--primary-1,
+h6.color--primary-1 {
+  color: $primary-1-dark;
+}
+
+h1.color--primary-2,
+h2.color--primary-2,
+h3.color--primary-2,
+h4.color--primary-2,
+h5.color--primary-2,
+h6.color--primary-2 {
+  color: $primary-2-dark;
+}
+
+.color--dark {
+  color: $dark-color;
+}
+.bg--dark {
+  background: $dark-color;
+}
+.bg--dark:not(.nav-bar) {
+  color: $light-color;
+}
+.bg--dark:not(.nav-bar) h1,
+.bg--dark:not(.nav-bar) h2,
+.bg--dark:not(.nav-bar) h3,
+.bg--dark:not(.nav-bar) h4,
+.bg--dark:not(.nav-bar) h5,
+.bg--dark:not(.nav-bar) h6,
+.bg--dark:not(.nav-bar) i,
+.bg--dark:not(.nav-bar) span:not(.btn__text),
+.bg--dark:not(.nav-bar) p {
+  color: $light-color;
+}
+.bg--site {
+  background: $bg-color;
+}
+.bg--secondary {
+  background: $bg-secondary;
+}
+.bg--primary {
+  background: $primary;
+}
+
+.bg--primary-1 {
+  background: $primary-1;
+}
+
+.bg--primary-2 {
+  background: $primary-2;
+}
+
+.bg--white p,
+.bg--white span,
+.bg--white ul,
+.bg--white a:not(.btn) {
+  color: $text-color;
+}
+.bg--white h1,
+.bg--white h2,
+.bg--white h3,
+.bg--white h4,
+.bg--white h5,
+.bg--white h6,
+.bg--white i {
+  color: $dark-color;
+}
+.imagebg:not(.image--light) .bg--white p,
+.imagebg:not(.image--light) .bg--white span,
+.imagebg:not(.image--light) .bg--white ul,
+.imagebg:not(.image--light) .bg--white a:not(.btn) {
+  color: $text-color;
+}
+.imagebg:not(.image--light) .bg--white h1,
+.imagebg:not(.image--light) .bg--white h2,
+.imagebg:not(.image--light) .bg--white h3,
+.imagebg:not(.image--light) .bg--white h4,
+.imagebg:not(.image--light) .bg--white h5,
+.imagebg:not(.image--light) .bg--white h6,
+.imagebg:not(.image--light) .bg--white i {
+  color: $dark-color;
+}
+
+
+
+
 
 // HEADER CLIP-PATH
 
@@ -123,44 +220,44 @@ h4,
 
 .lila .height-70[data-overlay]:before
  {
-  background: $tertiary-color;
+  background: $primary-2;
   clip-path: url(img/dibuix.svg#header);
   clip-path: ellipse(100% 70% at 19% 30%);
- /* Old Browsers */background: -moz-linear-gradient(-45deg, $tertiary-color 0%, $tertiary-color 12%, black 66%, black 100%);
- /* FF3.6+ */background: -webkit-gradient(left top, right bottom, color-stop(0%, $tertiary-color), color-stop(12%, $tertiary-color), color-stop(66%, black), color-stop(100%, black));
- /* Chrome, Safari4+ */background: -webkit-linear-gradient(-45deg, $tertiary-color 0%, $tertiary-color 12%, black 66%, black 100%);
- /* Chrome10+,Safari5.1+ */background: -o-linear-gradient(-45deg, $tertiary-color 0%, $tertiary-color 12%, black 66%, black 100%);
- /* Opera 11.10+ */background: -ms-linear-gradient(-45deg, $tertiary-color 0%, $tertiary-color 12%, black 66%, black 100%);
- /* IE 10+ */background: linear-gradient(135deg, $tertiary-color 0%, $tertiary-color 12%, black 66%, black 100%);
+ /* Old Browsers */background: -moz-linear-gradient(-45deg, $primary-2 0%, $primary-2 12%, black 66%, black 100%);
+ /* FF3.6+ */background: -webkit-gradient(left top, right bottom, color-stop(0%, $primary-2), color-stop(12%, $primary-2), color-stop(66%, black), color-stop(100%, black));
+ /* Chrome, Safari4+ */background: -webkit-linear-gradient(-45deg, $primary-2 0%, $primary-2 12%, black 66%, black 100%);
+ /* Chrome10+,Safari5.1+ */background: -o-linear-gradient(-45deg, $primary-2 0%, $primary-2 12%, black 66%, black 100%);
+ /* Opera 11.10+ */background: -ms-linear-gradient(-45deg, $primary-2 0%, $primary-2 12%, black 66%, black 100%);
+ /* IE 10+ */background: linear-gradient(135deg, $primary-2 0%, $primary-2 12%, black 66%, black 100%);
 /* W3C */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#47013f', endColorstr='#f7f7f7', GradientType=1 );
 /* IE6-9 fallback on horizontal gradient */
 }
 
 .vermell .height-70[data-overlay]:before {
-  background: $primary-color;
+  background: $primary;
   clip-path: url(img/dibuix.svg#header);
   clip-path: ellipse(100% 70% at 19% 30%);
- /* Old Browsers */background: -moz-linear-gradient(-45deg, $primary-color 0%, $primary-color 12%, $tertiary-color 66%, $tertiary-color 100%);
- /* FF3.6+ */background: -webkit-gradient(left top, right bottom, color-stop(0%, $primary-color), color-stop(12%, $primary-color), color-stop(66%, $tertiary-color), color-stop(100%, $tertiary-color));
- /* Chrome, Safari4+ */background: -webkit-linear-gradient(-45deg, $primary-color 0%, $primary-color 12%, $tertiary-color 66%, $tertiary-color 100%);
- /* Chrome10+,Safari5.1+ */background: -o-linear-gradient(-45deg, $primary-color 0%, $primary-color 12%, $tertiary-color 66%, $tertiary-color 100%);
- /* Opera 11.10+ */background: -ms-linear-gradient(-45deg, $primary-color 0%, $primary-color 12%, $tertiary-color 66%, $tertiary-color 100%);
- /* IE 10+ */background: linear-gradient(135deg, $primary-color 0%, $primary-color 12%, $tertiary-color 66%, $tertiary-color 100%);
+ /* Old Browsers */background: -moz-linear-gradient(-45deg, $primary 0%, $primary 12%, $primary-2 66%, $primary-2 100%);
+ /* FF3.6+ */background: -webkit-gradient(left top, right bottom, color-stop(0%, $primary), color-stop(12%, $primary), color-stop(66%, $primary-2), color-stop(100%, $primary-2));
+ /* Chrome, Safari4+ */background: -webkit-linear-gradient(-45deg, $primary 0%, $primary 12%, $primary-2 66%, $primary-2 100%);
+ /* Chrome10+,Safari5.1+ */background: -o-linear-gradient(-45deg, $primary 0%, $primary 12%, $primary-2 66%, $primary-2 100%);
+ /* Opera 11.10+ */background: -ms-linear-gradient(-45deg, $primary 0%, $primary 12%, $primary-2 66%, $primary-2 100%);
+ /* IE 10+ */background: linear-gradient(135deg, $primary 0%, $primary 12%, $primary-2 66%, $primary-2 100%);
 /* W3C */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b80000', endColorstr='#47013f', GradientType=1 );
 /* IE6-9 fallback on horizontal gradient */
 }
 
 .verd .height-70[data-overlay]:before
  {
-  background: $secondary-color;
+  background: $primary-1;
   clip-path: url(img/dibuix.svg#header);
   clip-path: ellipse(100% 70% at 19% 30%);
- /* Old Browsers */background: -moz-linear-gradient(-45deg, $secondary-color 0%, $secondary-color 12%, $tertiary-color 66%, $tertiary-color 100%);
- /* FF3.6+ */background: -webkit-gradient(left top, right bottom, color-stop(0%, $secondary-color), color-stop(12%, $secondary-color), color-stop(66%, $tertiary-color), color-stop(100%, $tertiary-color));
- /* Chrome, Safari4+ */background: -webkit-linear-gradient(-45deg, $secondary-color 0%, $secondary-color 12%, $tertiary-color 66%, $tertiary-color 100%);
- /* Chrome10+,Safari5.1+ */background: -o-linear-gradient(-45deg, $secondary-color 0%, $secondary-color 12%, $tertiary-color 66%, $tertiary-color 100%);
- /* Opera 11.10+ */background: -ms-linear-gradient(-45deg, $secondary-color 0%, $secondary-color 12%, $tertiary-color 66%, $tertiary-color 100%);
- /* IE 10+ */background: linear-gradient(135deg, $secondary-color 0%, $secondary-color 12%, $tertiary-color 66%, $tertiary-color 100%);
+ /* Old Browsers */background: -moz-linear-gradient(-45deg, $primary-1 0%, $primary-1 12%, $primary-2 66%, $primary-2 100%);
+ /* FF3.6+ */background: -webkit-gradient(left top, right bottom, color-stop(0%, $primary-1), color-stop(12%, $primary-1), color-stop(66%, $primary-2), color-stop(100%, $primary-2));
+ /* Chrome, Safari4+ */background: -webkit-linear-gradient(-45deg, $primary-1 0%, $primary-1 12%, $primary-2 66%, $primary-2 100%);
+ /* Chrome10+,Safari5.1+ */background: -o-linear-gradient(-45deg, $primary-1 0%, $primary-1 12%, $primary-2 66%, $primary-2 100%);
+ /* Opera 11.10+ */background: -ms-linear-gradient(-45deg, $primary-1 0%, $primary-1 12%, $primary-2 66%, $primary-2 100%);
+ /* IE 10+ */background: linear-gradient(135deg, $primary-1 0%, $primary-1 12%, $primary-2 66%, $primary-2 100%);
 /* W3C */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#52be07', endColorstr='#47013f', GradientType=1 );
 /* IE6-9 fallback on horizontal gradient */
 }
@@ -218,4 +315,11 @@ h4,
 
 #intro-home a:hover div {
   box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+.hover-element__initial img {
+  -webkit-filter: brightness(40%) hue-rotate(30deg);
 }

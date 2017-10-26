@@ -3,7 +3,6 @@ layout: multi-section
 sections: funcionament
 titular: Com funcionem
 imatge_titular: presentacio.jpg
-color_pagina: vermell
 titol_seo: Funcionament de l'escola
 descripcio: Els objectius pedagògics de l'Arcàdia són la formació integral de les
   persones.
