@@ -3,17 +3,11 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="elements--title">
-                    <h4>{{ section.titol_seccio }}</h4>
+                    <h4 class="color--primary-1">{{ section.titol_seccio }}</h4>
                 </div>
             </div>
-            {% for bloc in section.objectius %}
-            <div class="col-sm-4">
-                <div class="feature feature-1">
-                    <i class="icon icon-{{ bloc.icona }} icon--lg"></i>
-                    <h4>{{ bloc.objectiu }}</h4>
-                    <p>{{ bloc.text }}</p>
-                </div>
-            </div>
+            {% for item in section.objectius %}
+            {% include pillar/feature-1-icon.html color="color--primary-1" %}
             {% endfor %}
         </div>
     </div>
