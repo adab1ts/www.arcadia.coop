@@ -1,0 +1,17 @@
+<section id="{% if section.a1_id %}{{ section.a1_id }}{% else %}{% endif %}" class="{% if section.fons %}{{ section.fons }}{% else %}{% endif %}" data-sr-id="1" style="; visibility: visible;  -webkit-transform: translateY(0) scale(1); opacity: 1;transform: translateY(0) scale(1); opacity: 1;-webkit-transition: -webkit-transform 1s cubic-bezier( 0.6, 0.2, 0.1, 1 ) 0s, opacity 1s cubic-bezier( 0.6, 0.2, 0.1, 1 ) 0s; transition: transform 1s cubic-bezier( 0.6, 0.2, 0.1, 1 ) 0s, opacity 1s cubic-bezier( 0.6, 0.2, 0.1, 1 ) 0s; ">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2 text-center">
+                <h3 class="color--primary">{{ section.titol_seccio }}</h3>
+                <div class="lead">{{ section.content }}</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            {% for item in section.conceptes %}
+            {% include pillar/feature-1-icon.html color="color--primary" %}
+            {% endfor %}
+        </div>
+    </div>
+</section>
