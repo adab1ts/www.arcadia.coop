@@ -43,13 +43,11 @@ collections:
       output: false
   pedagogia:
       output: false
-  pilars:
-      output: false
   projecte:
       output: false
   testimonials:
       output: false
-  teoria:
+  pedagogia:
       output: false
   vertical-cards:
       output: false

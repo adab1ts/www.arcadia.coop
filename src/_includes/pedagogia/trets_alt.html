@@ -1,0 +1,28 @@
+<section class="wide-grid masonry" data-sr-id="1" style="; visibility: visible;  -webkit-transform: translateY(0) scale(1); opacity: 1;transform: translateY(0) scale(1); opacity: 1;-webkit-transition: -webkit-transform 1s cubic-bezier( 0.6, 0.2, 0.1, 1 ) 0s, opacity 1s cubic-bezier( 0.6, 0.2, 0.1, 1 ) 0s; transition: transform 1s cubic-bezier( 0.6, 0.2, 0.1, 1 ) 0s, opacity 1s cubic-bezier( 0.6, 0.2, 0.1, 1 ) 0s; ">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="elements--title text-center">
+                    <h3>{{ section.titol_seccio }}</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="masonry__container masonry--animate masonry--active">
+        {% for item in section.trets %}
+        <div class="col-md-3 col-sm-6 masonry__item ">
+                <div class="hover-element hover-element-1 hover--active">
+                    <div class="hover-element__initial">
+                        <img alt="Pic" src="{{ site.baseurl }}/{{ site.images_path }}/fotos-grid/{% cycle '018Escola Arcadia.jpg','019Escola Arcadia.jpg', '027Escola Arcadia.jpg', '032Escola Arcadia.jpg','033Escola Arcadia.jpg', '034Escola Arcadia.jpg', '035Escola Arcadia.jpg','036Escola Arcadia.jpg' %}">
+                    </div>
+                    <div class="hover-element__reveal" data-scrim-top="6">
+                        <div class="boxed text-center">
+                            <p class="h5">{{ item.tret }}</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        {% endfor %}
+    </div>
+
+</section>

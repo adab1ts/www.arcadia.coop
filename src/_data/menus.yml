@@ -5,8 +5,8 @@ header:
 - identifier: escola
   url: "/escola"
   title: L'escola
-- identifier: teoria
-  url: "/teoria"
+- identifier: pedagogia
+  url: "/pedagogia"
   title: Principis pedagògics
 - identifier: projecte
   url: "/projecte"
