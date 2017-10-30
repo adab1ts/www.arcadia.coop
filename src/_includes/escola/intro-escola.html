@@ -10,7 +10,7 @@
 </section>
 <section class="features features-10" data-sr-id="2" style="; visibility: visible;  -webkit-transform: translateY(0) scale(1); opacity: 1;transform: translateY(0) scale(1); opacity: 1;-webkit-transition: -webkit-transform 1s cubic-bezier( 0.6, 0.2, 0.1, 1 ) 0s, opacity 1s cubic-bezier( 0.6, 0.2, 0.1, 1 ) 0s; transition: transform 1s cubic-bezier( 0.6, 0.2, 0.1, 1 ) 0s, opacity 1s cubic-bezier( 0.6, 0.2, 0.1, 1 ) 0s; ">
   {% for bloc in section.blocs %}
-  <div class="feature bg--{{ bloc.color_fons }} col-md-4 text-center">
+  <div class="feature {{ bloc.color_fons }} col-md-4 text-center">
     <i class="icon icon-{{ bloc.icona }} icon--lg"></i>
     <h4>{{ bloc.nom }}</h4>
     <p>{{ bloc.subtitol }}</p>

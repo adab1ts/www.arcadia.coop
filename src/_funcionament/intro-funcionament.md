@@ -2,7 +2,7 @@
 order: 1
 include: funcionament/intro.html
 titol_seccio: Un projecte pedagògic triplement autogestionat
-fons: bg--secondary
+color_fons: bg--secondary
 conceptes:
 - nom: Autogestió en la gestió
   text: "La gestió del centre està dissenyada seguint els criteris autogestionàris i cenyint-se a la legalitat vigent, mitjançant una cooperativa sense ànim de lucre amb mecanismes de radicalitat democràtica interna, com la supressió d'escales salarials, la invalidació decisòria del consell rector -i conseqüentment,  l'assumpció de l'assemblea general com a únic òrgan decisori- i la fixació de salaris per conveni (per tal que els beneficis no se'n vagin pel salari) i tot això coordinat orgànicament amb l'impuls cooperatiu i l'assemblea General de Can Batlló a la que rendeix comptes anualment."
@@ -16,4 +16,4 @@ conceptes:
 date: 2017-09-26 17:27:04 +0000
 ---
 
-L'escola Arcàdia és un projecte autogestionari i cooperatiu d'educació en i per la llibertat responsable, que comprèn les etapes d'educació infantil, primària i secundària obligatòria i què assumeix els principis d'autogestió de Can Batlló a tres nivells:
+L'escola Arcàdia és un projecte autogestionari i cooperatiu d'educació en i per la llibertat responsable, que comprèn les etapes d'educació infantil, primària i secundària obligatòria i què assumeix els principis d'autogestió de Can Batlló a tres nivells

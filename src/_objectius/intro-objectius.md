@@ -2,7 +2,7 @@
 order: 1
 include: objectius/intro-objectius.html
 titol_seccio: "L’Arcàdia treballa en tres àmbits ben definits: l’entorn familiar, el desenvolupament de la infància i l’entorn social."
-fons: bg--secondary
+color_fons: bg--secondary
 objectius:
 - nom: Entorn familiar
   text: Oferir una atenció, servei i possibilitat de participació segons necessitats i interessos, sempre vetllant amb especial cura i sensibilitat per a aquelles famílies que ho requereixin.

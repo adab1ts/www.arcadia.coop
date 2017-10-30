@@ -2,7 +2,7 @@
 order: 1
 include: homepage/conceptes-icones.html
 titol_seccio: L'arcàdia en 6 conceptes
-fons: bg--secondary
+color_fons: bg--secondary
 a1_id: intro-home
 conceptes:
 - nom: Llibertat

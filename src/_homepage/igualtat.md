@@ -2,7 +2,6 @@
 order: 2
 a1_id: igualtat
 include: homepage/conceptes-seccions.html
-type: imageblock
 titol_seccio: Igualtat
 imatge: psicomotricidad.jpg
 descripcio_imatge: descripció de la imatge

@@ -55,9 +55,9 @@ fields:
   - nom: Nom de la característica
     subtitol: Lorem ipsum dolor sit amet. Ut enim ad minim veniam.
     icona: Loop
-    color_fons: secondary
+    color_fons: bg--secondary
   - nom: Nom de la característica
     subtitol: Lorem ipsum dolor sit amet. Ut enim ad minim veniam.
     icona: Loop
-    color_fons: secondary
+    color_fons: bg--secondary
   description: Continguts dels 3 blocs que conformen la secció
