@@ -1,6 +1,6 @@
 ---
 order: 4
-include: sections/cta.html
+include: theme/cta.html
 titol_seccio: T'interessa el projecte tècnic i vols tenir més informació?
 text-button: DESCARREGA EL PDF
 doc-url: "#"

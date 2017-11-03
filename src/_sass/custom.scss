@@ -350,8 +350,25 @@ h6,
 }
 
 
-
-
 .hover-element__initial img {
   -webkit-filter: brightness(40%) hue-rotate(30deg);
+}
+
+/**! features **/
+
+@media all and (min-width: 768px) {
+  .features-12 .feature[class*='col-']:not(:last-child) {
+    padding-right: 1em;
+  }
+  .features-12 .feature[class*='col-']:last-child {
+    padding-left: 1em;
+  }
+}
+
+.features-12 p.lead {
+  margin-bottom: 1.8em;
+}
+
+.barchart-2 .barchart__bar {
+  background: $primary-1-light;
 }

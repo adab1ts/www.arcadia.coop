@@ -1,11 +1,10 @@
  <!-- Projecte dades section -->
- <section>
+ <section class="bg--white">
     <div class="container">
-      {% assign fases = section.fases %}
-      {% for item in fases %}
+      {% for item in section.fases %}
         <div class="row">
             <div class="col-md-5">
-                <h5>{{ item.titol_seccio }}</h5>
+                <h5 class="color--primary-1">{{ item.titol_fase }}</h5>
                 <p>{{ item.text }}</p>
             </div>
             <div class="col-md-6 col-md-offset-1">
@@ -27,11 +26,10 @@
 </section>
 <section class="imagebg section--even stats-1 parallax" data-overlay="7">
     <div class="background-image-holder">
-        <img alt="image" src="{{ site.baseurl }}/{{ site.images_path }}/{{ section.image }}">
+        <img alt="image" src="{{ site.baseurl }}/{{ site.images_path }}/{{ section.imatge }}">
     </div>
     <div class="row wide-grid">
-      {% assign stats = section.stats %}
-      {% for item in stats %}
+      {% for item in section.stats %}
       <div class="col-sm-3 col-xs-6">
           <div class="feature feature-1 text-center">
               <i class="icon icon-{{ item.icona }} icon--lg"></i>
