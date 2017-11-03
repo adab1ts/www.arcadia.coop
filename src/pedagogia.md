@@ -1,6 +1,6 @@
 ---
 layout: multi-section
-sections: pedagogia
+sections: p-pedagogia
 titular: Principis pedagògics
 imatge_titular: presentacio.jpg
 titol_seo: Principis pedagògics i referents

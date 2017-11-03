@@ -1,6 +1,6 @@
 ---
 layout: multi-section
-sections: projecte
+sections: p-projecte
 titular: Projecte tècnic
 imatge_titular: presentacio.jpg
 color_pagina: verd

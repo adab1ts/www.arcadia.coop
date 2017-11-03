@@ -1,6 +1,6 @@
 ---
 layout: multi-section
-sections: homepage
+sections: p-homepage
 titular: Escola autogestionària i cooperativa
 imatge_titular: presentacio.jpg
 titol_seo: Escola autogestionària i cooperativa

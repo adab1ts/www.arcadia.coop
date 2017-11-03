@@ -1,6 +1,6 @@
 ---
 layout: multi-section
-sections: funcionament
+sections: p-funcionament
 titular: Com funcionem
 imatge_titular: presentacio.jpg
 titol_seo: Funcionament de l'escola

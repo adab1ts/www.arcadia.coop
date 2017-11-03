@@ -1,6 +1,6 @@
 ---
 layout: multi-section
-sections: objectius
+sections: p-objectius
 titular: Els objectius
 imatge_titular: presentacio.jpg
 titol_seo: Objectius pedagògics

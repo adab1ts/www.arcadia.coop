@@ -1,6 +1,6 @@
 ---
 layout: multi-section
-sections: contacte
+sections: p-contacte
 titular: Contacta amb nosaltres
 imatge_titular: presentacio.jpg
 color_pagina: verd

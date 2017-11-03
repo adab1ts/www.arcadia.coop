@@ -29,27 +29,19 @@ data_dir: _data
 
 # Collections
 collections:
-  contacte:
+  p-contacte:
       output: false
-  escola:
+  p-escola:
       output: false
-  funcionament:
+  p-funcionament:
       output: false
-  homepage:
+  p-homepage:
       output: false
-  image-blocks:
+  p-objectius:
       output: false
-  objectius:
+  p-pedagogia:
       output: false
-  pedagogia:
-      output: false
-  projecte:
-      output: false
-  testimonials:
-      output: false
-  pedagogia:
-      output: false
-  vertical-cards:
+  p-projecte:
       output: false
 
 
