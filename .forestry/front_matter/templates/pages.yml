@@ -1,5 +1,6 @@
 ---
 pages:
+- contacte.md
 - projecte.md
 - pedagogia.md
 - objectius.md
@@ -8,8 +9,7 @@ pages:
 - funcionament.md
 - escola.md
 - cookies.md
-- contacte.md
-hide_body: false
+hide_body: true
 fields:
 - name: layout
   label: Layout
