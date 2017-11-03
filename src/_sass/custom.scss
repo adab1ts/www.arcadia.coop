@@ -211,8 +211,34 @@ h6.color--primary-2 {
   color: $dark-color;
 }
 
+// FONTS
 
+@font-face {
+  font-family: 'Arcadia';
+  src: url('assets/fonts/arcadia.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: 'Arcadia', 'Poppins', 'Montserrat', 'Arial', sans-serif!important;
+  color: #343434;
+  font-weight: 600;
+  font-variant-ligatures: common-ligatures;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
 
 
 // HEADER CLIP-PATH
