@@ -1,0 +1,53 @@
+---
+pages:
+- projecte.md
+- pedagogia.md
+- objectius.md
+- legal.md
+- index.md
+- funcionament.md
+- escola.md
+- cookies.md
+- contacte.md
+hide_body: false
+fields:
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: basic
+- name: sections
+  label: Sections
+  type: text
+  hidden: false
+  default: collection-name
+- name: titular
+  label: Titular
+  type: text
+  hidden: false
+  default: Títol per la capçalera de la pàgina
+- name: imatge_titular
+  label: Imatge titular
+  type: text
+  hidden: false
+  default: presentacio.jpg
+- name: color_pagina
+  label: Color pagina
+  type: text
+  hidden: false
+  default: verd
+- name: titol_seo
+  label: Titol seo
+  type: text
+  hidden: false
+  default: Títol per SEO
+- name: descripcio
+  label: Descripcio
+  type: text
+  hidden: false
+  default: Descripció per SEO
+- name: paraules_clau
+  label: Paraules clau
+  type: text
+  hidden: false
+  default: Paraules clau separades per comes
