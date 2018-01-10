@@ -96,6 +96,25 @@ body {
   color: $primary !important;
 }
 
+.color--primary-1 {
+  color: $primary-1 !important;
+}
+.color--primary-2 {
+  color: $primary-2 !important;
+}
+.color--primary-light {
+  color: $primary-light !important;
+}
+.color--primary-1-light {
+  color: $primary-1-light !important;
+}
+.color--primary-2-light {
+  color: $primary-2-light !important;
+}
+.color--light {
+  color: $light-color;
+}
+
 a {
   color: $primary-2-dark;
 }
@@ -103,17 +122,6 @@ a {
 a:hover {
   color: $primary-1;
 }
-
-.color--primary-1 {
-  color: $primary-1 !important;
-}
-.color--primary-2 {
-  color: $primary-2 !important;
-}
-.color--light {
-  color: $light-color;
-}
-
 
 h1.color--primary,
 h2.color--primary,
@@ -178,6 +186,18 @@ h6.color--primary-2 {
 
 .bg--primary-2 {
   background: $primary-2;
+}
+
+.bg--primary-light {
+  background: $primary-light;
+}
+
+.bg--primary-1-light {
+  background: $primary-1-light;
+}
+
+.bg--primary-2-light {
+  background: $primary-2-light;
 }
 
 .bg--white p,
@@ -371,4 +391,13 @@ h6,
 
 .barchart-2 .barchart__bar {
   background: $primary-1-light;
+}
+
+
+.a1-rounded-border {
+  border-radius: 2em;
+}
+
+.a1-margin {
+  margin: 2em!important;
 }
