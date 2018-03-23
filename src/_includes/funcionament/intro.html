@@ -10,7 +10,13 @@
     <div class="container">
         <div class="row">
             {% for item in section.conceptes %}
-            {% include theme/feature-1-icon.html color="color--primary" %}
+            <div class="col-sm-4">
+                <div class="feature feature-1 ">
+                    <img class="avatar" src="{{ site.baseurl }}/{{ site.images_path }}/{{ item.icona }}" alt="icona {{ item.nom }}">
+                    <h5>{{ item.nom }}</h5>
+                    <p>{{ item.text }}</p>
+                </div>
+            </div>
             {% endfor %}
         </div>
     </div>
