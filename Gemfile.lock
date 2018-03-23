@@ -49,12 +49,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll (= 3.6.0)
+  jekyll (~> 3.6.0)
   jekyll-feed (~> 0.6)
   jekyll-menus
 
 RUBY VERSION
-   ruby 2.3.1p112
+   ruby 2.4.2p198
 
 BUNDLED WITH
-   1.14.6
+   1.16.1
