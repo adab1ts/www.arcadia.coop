@@ -4,7 +4,7 @@ a1_id: responsabilitat
 include: homepage/conceptes-seccions.html
 type: imageblock
 titol_seccio: Responsabilitat
-imatge: responsabilitat.jpg
+imatge: /assets/uploads/responsabilitat.jpg
 descripcio_imatge: descripció de la imatge
 date: 2017-09-26 17:27:04 +0000
 ---

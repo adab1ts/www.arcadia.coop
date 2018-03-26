@@ -4,7 +4,7 @@ a1_id: llibertat
 include: homepage/conceptes-seccions.html
 type: imageblock
 titol_seccio: Educació en i per a la llibertat
-imatge: llibertat.jpg
+imatge: /assets/uploads/llibertat.jpg
 descripcio_imatge: descripció de la imatge
 date: 2017-09-26 17:27:04 +0000
 ---

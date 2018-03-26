@@ -2,7 +2,7 @@
 order: 3
 include: escola/onsom.html
 titol_seccio: On és l'Arcàdia
-imatge: psicomotricidad.jpg
+imatge: /assets/uploads/psicomotricidad.jpg
 descripcio_imatge: descripció de la imatge
 date: 2017-09-26 17:27:04 +0000
 ---

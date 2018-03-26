@@ -3,7 +3,7 @@ order: 5
 a1_id: cooperacio
 include: homepage/conceptes-seccions.html
 titol_seccio: Solidaritat i cooperació
-imatge: cooperacio.jpg
+imatge: /assets/uploads/cooperacio.jpg
 descripcio_imatge: descripció de la imatge
 date: 2017-09-26 17:27:04 +0000
 ---

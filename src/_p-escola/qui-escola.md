@@ -2,7 +2,7 @@
 order: 2
 include: escola/quisom.html
 titol_seccio: Qui és l'Arcàdia
-imatge: psicomotricidad.jpg
+imatge: /assets/uploads/psicomotricidad.jpg
 descripcio_imatge: descripció de la imatge
 date: 2017-09-26 17:27:04 +0000
 ---

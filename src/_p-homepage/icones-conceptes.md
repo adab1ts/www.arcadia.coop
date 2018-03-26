@@ -6,22 +6,22 @@ color_fons: bg--secondary
 a1_id: intro-home
 conceptes:
 - nom: Llibertat
-  icona: llibertat.svg
+  icona: /assets/uploads/llibertat.svg
   link: llibertat
 - nom: Igualtat
-  icona: igualtat.svg
+  icona: /assets/uploads/igualtat.svg
   link: igualtat
 - nom: Autogestió
-  icona: autogestio.svg
+  icona: /assets/uploads/autogestio.svg
   link: autogestio
 - nom: Educació integral
-  icona: educaciointegral.svg
+  icona: /assets/uploads/educaciointegral.svg
   link: integral
 - nom: Solidaritat i cooperació
-  icona: solidaritat.svg
+  icona: /assets/uploads/solidaritat.svg
   link: cooperacio
 - nom: Responsabilitat
-  icona: responsabilitat.svg
+  icona: /assets/uploads/responsabilitat.svg
   link: responsabilitat
 date: 2017-09-26 17:27:04 +0000
 ---

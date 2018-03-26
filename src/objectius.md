@@ -2,7 +2,7 @@
 layout: multi-section
 sections: p-objectius
 titular: Els objectius
-imatge_titular: presentacio.jpg
+imatge_titular: /assets/uploads/presentacio.jpg
 titol_seo: Objectius pedagògics
 descripcio: L'objectiu pedagògic de l'Arcàdia és la formació integral de les persones.
 paraules_clau: escola arcàdia, arcadia

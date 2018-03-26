@@ -16,7 +16,7 @@ fases:
     valor: 65
   - nom: Despeses
     valor: 30
-imatge: presentacio.jpg
+imatge: /assets/uploads/presentacio.jpg
 stats:
 - nom: SUPERFÍCIE D'ESCOLA
   valor: 1070 M2

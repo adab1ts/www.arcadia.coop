@@ -3,7 +3,7 @@ order: 2
 a1_id: igualtat
 include: homepage/conceptes-seccions.html
 titol_seccio: Igualtat
-imatge: igualtat.jpg
+imatge: /assets/uploads/igualtat.jpg
 descripcio_imatge: descripció de la imatge
 date: 2017-09-26 17:27:04 +0000
 ---

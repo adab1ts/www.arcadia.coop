@@ -2,7 +2,7 @@
 order: 3
 include: funcionament/social.html
 titol_seccio: Un projecte social amb vocació pública
-imatge: funcionament-vocaciopublica.jpg
+imatge: /assets/uploads/funcionament-vocaciopublica.jpg
 descripcio_imatge: descripció de la imatge
 color_fons: bg--primary-1
 date: 2017-09-26 17:27:04 +0000

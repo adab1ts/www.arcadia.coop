@@ -4,7 +4,7 @@ a1_id: autogestio
 include: homepage/conceptes-seccions.html
 type: imageblock
 titol_seccio: Autogestió
-imatge: autogestio.jpg
+imatge: /assets/uploads/autogestio.jpg
 descripcio_imatge: descripció de la imatge
 date: 2017-09-26 17:27:04 +0000
 ---

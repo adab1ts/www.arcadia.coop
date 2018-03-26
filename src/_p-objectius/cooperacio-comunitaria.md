@@ -2,7 +2,7 @@
 order: 2
 include: objectius/detall-objectius.html
 titol_seccio: "Una experiència escolar basada en la cooperació comunitària"
-imatge: cooperaciocomunitaria.jpg
+imatge: /assets/uploads/cooperaciocomunitaria.jpg
 descripcio_imatge: descripció de la imatge
 date: 2017-09-26 17:27:04 +0000
 ---

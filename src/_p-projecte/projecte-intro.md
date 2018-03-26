@@ -3,7 +3,7 @@ order: 1
 include: projecte/intro.html
 titol_seccio: Projecte arquitectònic a Can Batlló
 subtitol_seccio: Realització prevista per febrer del 2019
-image: psicomotricidad.jpg
+imatge_lateral: /assets/uploads/psicomotricidad.jpg
 contingut:
 - titol: PROGRAMA
   lead: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

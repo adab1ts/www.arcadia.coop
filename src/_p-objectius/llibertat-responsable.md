@@ -2,7 +2,7 @@
 order: 3
 include: objectius/detall-objectius.html
 titol_seccio: "Una experiència escolar basada en la llibertat responsable"
-imatge: psicomotricidad.jpg
+imatge: /assets/uploads/psicomotricidad.jpg
 descripcio_imatge: descripció de la imatge
 date: 2017-09-26 17:27:04 +0000
 ---
