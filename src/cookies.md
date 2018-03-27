@@ -1,5 +1,6 @@
 ---
 layout: basic
+color_pagina: vermell
 titol_seo: Política de cookies
 descripcio: Informació sobre les cookies del site
 ---

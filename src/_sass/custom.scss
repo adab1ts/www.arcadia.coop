@@ -277,44 +277,41 @@ h6,
 .lila .height-70[data-overlay]:before
  {
   background: $primary-2;
-  clip-path: url(img/dibuix.svg#header);
   clip-path: ellipse(100% 70% at 19% 30%);
- /* Old Browsers */background: -moz-linear-gradient(-45deg, $primary-2 0%, $primary-2 12%, black 66%, black 100%);
- /* FF3.6+ */background: -webkit-gradient(left top, right bottom, color-stop(0%, $primary-2), color-stop(12%, $primary-2), color-stop(66%, black), color-stop(100%, black));
- /* Chrome, Safari4+ */background: -webkit-linear-gradient(-45deg, $primary-2 0%, $primary-2 12%, black 66%, black 100%);
- /* Chrome10+,Safari5.1+ */background: -o-linear-gradient(-45deg, $primary-2 0%, $primary-2 12%, black 66%, black 100%);
- /* Opera 11.10+ */background: -ms-linear-gradient(-45deg, $primary-2 0%, $primary-2 12%, black 66%, black 100%);
- /* IE 10+ */background: linear-gradient(135deg, $primary-2 0%, $primary-2 12%, black 66%, black 100%);
-/* W3C */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#47013f', endColorstr='#f7f7f7', GradientType=1 );
+ /* Old Browsers */background: -moz-linear-gradient(-45deg, $primary-2 0%, $primary-2 22%, $primary-1-dark 66%, $primary-1-dark 100%);
+ /* FF3.6+ */background: -webkit-gradient(left top, right bottom, color-stop(0%, $primary-2), color-stop(22%, $primary-2), color-stop(66%, $primary-1-dark), color-stop(100%, $primary-1-dark));
+ /* Chrome, Safari4+ */background: -webkit-linear-gradient(-45deg, $primary-2 0%, $primary-2 22%, $primary-1-dark 66%, $primary-1-dark 100%);
+ /* Chrome10+,Safari5.1+ */background: -o-linear-gradient(-45deg, $primary-2 0%, $primary-2 22%, $primary-1-dark 66%, $primary-1-dark 100%);
+ /* Opera 11.10+ */background: -ms-linear-gradient(-45deg, $primary-2 0%, $primary-2 22%, $primary-1-dark 66%, $primary-1-dark 100%);
+ /* IE 10+ */background: linear-gradient(135deg, $primary-2 0%, $primary-2 22%, $primary-1-dark 66%, $primary-1-dark 100%);
+/* W3C */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#830074', endColorstr='#1d340e', GradientType=1 );
 /* IE6-9 fallback on horizontal gradient */
 }
 
 .vermell .height-70[data-overlay]:before {
   background: $primary;
-  clip-path: url(img/dibuix.svg#header);
   clip-path: ellipse(100% 70% at 19% 30%);
- /* Old Browsers */background: -moz-linear-gradient(-45deg, $primary 0%, $primary 12%, $primary-2 66%, $primary-2 100%);
- /* FF3.6+ */background: -webkit-gradient(left top, right bottom, color-stop(0%, $primary), color-stop(12%, $primary), color-stop(66%, $primary-2), color-stop(100%, $primary-2));
- /* Chrome, Safari4+ */background: -webkit-linear-gradient(-45deg, $primary 0%, $primary 12%, $primary-2 66%, $primary-2 100%);
- /* Chrome10+,Safari5.1+ */background: -o-linear-gradient(-45deg, $primary 0%, $primary 12%, $primary-2 66%, $primary-2 100%);
- /* Opera 11.10+ */background: -ms-linear-gradient(-45deg, $primary 0%, $primary 12%, $primary-2 66%, $primary-2 100%);
- /* IE 10+ */background: linear-gradient(135deg, $primary 0%, $primary 12%, $primary-2 66%, $primary-2 100%);
-/* W3C */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b80000', endColorstr='#47013f', GradientType=1 );
+ /* Old Browsers */background: -moz-linear-gradient(-45deg, $primary 0%, $primary 42%, $primary-1-light 66%, $primary-1-light 100%);
+ /* FF3.6+ */background: -webkit-gradient(left top, right bottom, color-stop(0%, $primary), color-stop(42%, $primary), color-stop(66%, $primary-1-light), color-stop(100%, $primary-1-light));
+ /* Chrome, Safari4+ */background: -webkit-linear-gradient(-45deg, $primary 0%, $primary 42%, $primary-1-light 66%, $primary-1-light 100%);
+ /* Chrome10+,Safari5.1+ */background: -o-linear-gradient(-45deg, $primary 0%, $primary 42%, $primary-1-light 66%, $primary-1-light 100%);
+ /* Opera 11.10+ */background: -ms-linear-gradient(-45deg, $primary 0%, $primary 42%, $primary-1-light 66%, $primary-1-light 100%);
+ /* IE 10+ */background: linear-gradient(135deg, $primary 0%, $primary 42%, $primary-1-light 66%, $primary-1-light 100%);
+/* W3C */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b80000', endColorstr='#cfedba', GradientType=1 );
 /* IE6-9 fallback on horizontal gradient */
 }
 
 .verd .height-70[data-overlay]:before
  {
   background: $primary-1;
-  clip-path: url(img/dibuix.svg#header);
   clip-path: ellipse(100% 70% at 19% 30%);
- /* Old Browsers */background: -moz-linear-gradient(-45deg, $primary-1 0%, $primary-1 12%, $primary-2 66%, $primary-2 100%);
- /* FF3.6+ */background: -webkit-gradient(left top, right bottom, color-stop(0%, $primary-1), color-stop(12%, $primary-1), color-stop(66%, $primary-2), color-stop(100%, $primary-2));
- /* Chrome, Safari4+ */background: -webkit-linear-gradient(-45deg, $primary-1 0%, $primary-1 12%, $primary-2 66%, $primary-2 100%);
- /* Chrome10+,Safari5.1+ */background: -o-linear-gradient(-45deg, $primary-1 0%, $primary-1 12%, $primary-2 66%, $primary-2 100%);
- /* Opera 11.10+ */background: -ms-linear-gradient(-45deg, $primary-1 0%, $primary-1 12%, $primary-2 66%, $primary-2 100%);
- /* IE 10+ */background: linear-gradient(135deg, $primary-1 0%, $primary-1 12%, $primary-2 66%, $primary-2 100%);
-/* W3C */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#52be07', endColorstr='#47013f', GradientType=1 );
+ /* Old Browsers */background: -moz-linear-gradient(-45deg, $primary-1 0%, $primary-1 22%, $primary-2 66%, $primary-2 100%);
+ /* FF3.6+ */background: -webkit-gradient(left top, right bottom, color-stop(0%, $primary-1), color-stop(22%, $primary-1), color-stop(66%, $primary-2), color-stop(100%, $primary-2));
+ /* Chrome, Safari4+ */background: -webkit-linear-gradient(-45deg, $primary-1 0%, $primary-1 22%, $primary-2 66%, $primary-2 100%);
+ /* Chrome10+,Safari5.1+ */background: -o-linear-gradient(-45deg, $primary-1 0%, $primary-1 22%, $primary-2 66%, $primary-2 100%);
+ /* Opera 11.10+ */background: -ms-linear-gradient(-45deg, $primary-1 0%, $primary-1 22%, $primary-2 66%, $primary-2 100%);
+ /* IE 10+ */background: linear-gradient(135deg, $primary-1 0%, $primary-1 22%, $primary-2 66%, $primary-2 100%);
+/* W3C */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b8523', endColorstr='#830074', GradientType=1 );
 /* IE6-9 fallback on horizontal gradient */
 }
 

@@ -1,6 +1,7 @@
 ---
 layout: multi-section
 sections: p-objectius
+color_pagina: vermell
 titular: Els objectius
 imatge_titular: /assets/uploads/presentacio.jpg
 titol_seo: Objectius pedagògics

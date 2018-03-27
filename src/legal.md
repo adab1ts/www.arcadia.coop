@@ -1,5 +1,6 @@
 ---
 layout: basic
+color_pagina: verd
 titol_seo: Avís legal
 descripcio: Informació legal sobre el site
 paraules_clau:

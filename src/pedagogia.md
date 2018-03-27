@@ -1,6 +1,7 @@
 ---
 layout: multi-section
 sections: p-pedagogia
+color_pagina: lila
 titular: Principis pedagògics
 imatge_titular: /assets/uploads/centreversatil.jpg
 titol_seo: Principis pedagògics i referents

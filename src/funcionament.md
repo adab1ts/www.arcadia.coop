@@ -1,6 +1,7 @@
 ---
 layout: multi-section
 sections: p-funcionament
+color_pagina: lila
 titular: Com funcionem
 imatge_titular: /assets/uploads/presentacio.jpg
 titol_seo: Funcionament de l'escola

@@ -1,6 +1,7 @@
 ---
 layout: multi-section
 sections: p-escola
+color_pagina: verd
 titular: ARCÀDIA, escola de 3 a 16 anys
 imatge_titular: /assets/uploads/presentacio.jpg
 titol_seo: L'escola Arcàdia
