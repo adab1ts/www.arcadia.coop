@@ -54,8 +54,6 @@ defaults:
     values:
       layout: basic
       sections: collection-name
-      titular: "Títol per la capçalera de la pàgina"
-      imatge_titular: "presentacio.jpg"
       color_pagina: verd
       titol_seo: "Títol per SEO"
       descripcio: "Descripció per SEO"
