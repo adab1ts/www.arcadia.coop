@@ -14,7 +14,11 @@
           <ul class="menu">
             {% for item in site.menus.header %}
               <li class="menu-item-{{ forloop.index }}">
+                {% if item.url %}
                 <a href="{{ item.url }}" title="Anar a {{ item.title }}" target="_self">{{ item.title }}</a>
+                {% else %}
+                <p>{{ item.title }}</p>
+                {% endif %}
                 {% if item.children %}
                   <ul class="make-right">
                   {% for item in item.children %}

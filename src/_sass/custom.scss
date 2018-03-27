@@ -421,3 +421,27 @@ h6,
   list-style: disc;
   margin-left: 15px;
 }
+
+/**! Menu **/
+
+.menu > li p {
+  color: #232323;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+  transition: 0.2s linear;
+  -webkit-transition: 0.2s linear;
+  -moz-transition: 0.2s linear;
+  margin: 0;
+  font-family: 'Montserrat';
+}
+
+.menu > li:hover > p {
+  opacity: .6;
+  text-decoration: underline;
+}
+
+.menu > li {
+  font-size: 12px;
+  font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+}

@@ -12,6 +12,6 @@ menu:
   escola:
     identifier: _funcionament
     url: "/funcionament/"
-    weight: 2
+    weight: 3
     title: Funcionament
 ---

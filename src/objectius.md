@@ -11,6 +11,6 @@ menu:
   escola:
     identifier: _objectius
     url: "/objectius/"
-    weight: 1
+    weight: 2
     title: Objectius
 ---
