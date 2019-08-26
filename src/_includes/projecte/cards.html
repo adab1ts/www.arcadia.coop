@@ -1,0 +1,15 @@
+<!-- Vertical card section -->
+<section class="bg--primary-1">
+    <div class="container">
+      <div class="row">
+            <div class="col-sm-12">
+                <div class="elements--title">
+                    <h3>{{ section.titol_seccio }}</h3>
+                </div>
+            </div>
+            {% for item in section.cards %}
+                {% include theme/vertical-card.html %}
+            {% endfor %}
+      </div>
+    </div>
+</section>

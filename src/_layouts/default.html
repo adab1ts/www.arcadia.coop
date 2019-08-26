@@ -9,7 +9,7 @@
 
 
 <div class="main-container {{ page.color_pagina }}">
-{% include shared/header.html %}
+{% if page.video_titular %}{% include shared/video-header.html %}{% else %}{% include shared/header.html %}{% endif %}
 
 <!-- Main Content -->
 

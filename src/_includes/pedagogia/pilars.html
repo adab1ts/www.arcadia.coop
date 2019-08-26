@@ -1,7 +1,7 @@
 <section class="bg--secondary imageblock features features-1" data-sr-id="3" style="; visibility: visible;  -webkit-transform: translateY(0) scale(1); opacity: 1;transform: translateY(0) scale(1); opacity: 1;-webkit-transition: -webkit-transform 1s cubic-bezier( 0.6, 0.2, 0.1, 1 ) 0s, opacity 1s cubic-bezier( 0.6, 0.2, 0.1, 1 ) 0s; transition: transform 1s cubic-bezier( 0.6, 0.2, 0.1, 1 ) 0s, opacity 1s cubic-bezier( 0.6, 0.2, 0.1, 1 ) 0s; ">
     <div class="imageblock__content col-md-5 col-sm-3 pos-left">
-        <div class="background-image-holder" style="background: url({{ site.baseurl }}/{{ site.images_path }}/{{ section.imatge }}); opacity: 1;">
-            <img alt="{{ section.descripcio_imatge }}" src="{{ site.baseurl }}/{{ site.images_path }}/{{ section.imatge }}">
+        <div class="background-image-holder" style="background: url({{ section.imatge }}); opacity: 1;">
+            <img alt="{{ section.descripcio_imatge }}" src="{{ section.imatge }}">
         </div>
     </div>
     <div class="container">
@@ -13,9 +13,9 @@
                 {% for item in section.pilars %}
                 <div class="col-xs-6">
                     <div class="feature feature-1">
-                        <img class="avatar" src="{{ site.baseurl }}/{{ site.images_path }}/{{ item.avatar }}" alt="{{ item.nom }}">
+                        <img class="avatar" src="{{ item.avatar }}" alt="{{ item.nom }}">
                         <h5>{{ item.nom }}</h5>
-                        <p>{{ item.text }}</p>
+                        <blockquote class="a1-quote">"{{ item.text }}"</blockquote>
                     </div>
                 </div>
                 {% endfor %}

@@ -1,16 +1,15 @@
 ---
 layout: basic
+color_pagina: vermell
 titol_seo: Política de cookies
 descripcio: Informació sobre les cookies del site
-paraules_clau:
 ---
-## Política de cookies
 
 Aquest lloc web utilitza cookies. Les **cookies** o **galetes** són petits fitxers de text que els servidors web envien al navegador quan serveixen les pàgines sol·licitades per la persona usuària. Queden emmagatzemades al terminal ja sigui un ordinador, un telèfon mòbil o una tauleta, i són gestionades pel navegador. Aquest mecanisme permet emmagatzemar i recuperar informació relativa a les persones usuàries (com per exemple si han iniciat sessió o no), dades de connexió a les xarxes socials o dades de preferències de navegació. Aquestes dades són emmagatzemades per a ser recordades quan visiten de nou la pàgina.
 
 D'acord amb la normativa vigent, a continuació us donem informació sobre quines cookies utilitza aquest lloc web així com de la forma de controlar-ne la gestió i de com eliminar-les completament. Al mateix temps, sol·licitem el vostre consentiment per poder-les utilitzar.
 
-#### Cookies que utilitza aquest lloc web
+### Cookies que utilitza aquest lloc web
 
 Aquest lloc web utilitza les següents **cookies de tercers**:
 

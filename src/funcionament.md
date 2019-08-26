@@ -1,8 +1,9 @@
 ---
 layout: multi-section
-sections: funcionament
+sections: p-funcionament
+color_pagina: lila
 titular: Com funcionem
-imatge_titular: presentacio.jpg
+imatge_titular: /assets/uploads/presentacio.jpg
 titol_seo: Funcionament de l'escola
 descripcio: Els objectius pedagògics de l'Arcàdia són la formació integral de les
   persones.
@@ -11,6 +12,6 @@ menu:
   escola:
     identifier: _funcionament
     url: "/funcionament/"
-    weight: 2
+    weight: 3
     title: Funcionament
 ---

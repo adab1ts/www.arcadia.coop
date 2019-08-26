@@ -21,35 +21,27 @@ twitter: adab1ts
 # Where things are
 source: src
 destination: _site
-images_path: assets/img
-theme_scripts_path: assets/pillar/js
-theme_styles_path: assets/pillar/css
-theme_fonts_path: assets/pillar/fonts
+images_path: assets/uploads
+theme_scripts_path: assets/scripts
+theme_styles_path: assets/styles
+theme_fonts_path: assets/fonts
 data_dir: _data
 
 # Collections
 collections:
-  contacte:
+  p-contacte:
       output: false
-  escola:
+  p-escola:
       output: false
-  funcionament:
+  p-funcionament:
       output: false
-  homepage:
+  p-homepage:
       output: false
-  image-blocks:
+  p-objectius:
       output: false
-  objectius:
+  p-pedagogia:
       output: false
-  pedagogia:
-      output: false
-  projecte:
-      output: false
-  testimonials:
-      output: false
-  pedagogia:
-      output: false
-  vertical-cards:
+  p-projecte:
       output: false
 
 
@@ -62,8 +54,6 @@ defaults:
     values:
       layout: basic
       sections: collection-name
-      titular: "Títol per la capçalera de la pàgina"
-      imatge_titular: "presentacio.jpg"
       color_pagina: verd
       titol_seo: "Títol per SEO"
       descripcio: "Descripció per SEO"

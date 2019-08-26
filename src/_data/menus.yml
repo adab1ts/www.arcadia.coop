@@ -3,7 +3,6 @@ header:
   url: "/"
   title: Inici
 - identifier: escola
-  url: "/escola"
   title: L'escola
 - identifier: pedagogia
   url: "/pedagogia"
